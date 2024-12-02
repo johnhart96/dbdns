@@ -11,3 +11,4 @@ It is very much still a work-in-progress but I welcome any help and suggestions.
 * Error detection
 * Testing
 * A nice web UI complete with Rest API
+* handling of MX records with priority 
