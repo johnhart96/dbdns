@@ -15,4 +15,4 @@ It is very much still a work-in-progress but I welcome any help and suggestions.
 
 ## How to install
 
- `sudo wget https://raw.githubusercontent.com/johnhart96/dbdns/refs/heads/main/install.sh | bash`
+ `sudo wget -O - https://raw.githubusercontent.com/johnhart96/dbdns/refs/heads/main/install.sh | bash`
