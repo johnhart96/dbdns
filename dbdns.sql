@@ -18,5 +18,6 @@ CREATE TABLE `zones` (
   `soa_expire` int(5) NOT NULL,
   `soa_negative` int(5) NOT NULL,
   `ttl` int(5) NOT NULL,
+  `master` varchar(32) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
