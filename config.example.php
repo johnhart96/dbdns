@@ -1,4 +1,3 @@
-  GNU nano 7.2                                       config.example.php
 <?php
 /*
 * Project: DBDNS
