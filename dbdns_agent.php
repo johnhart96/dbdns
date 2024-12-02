@@ -61,7 +61,7 @@ $getZones = $db->query( "SELECT `domain`,`zone_type` FROM `zones`" );
 $bind_config_file = "";
 while( $zone = $getZones->fetch( PDO::FETCH_ASSOC ) ) {
         $bind_config_file .= 'zone "' . $zone['domain'] . '". {\n";
-        $bind_config_file .= "    type " . $zone['zone_type'] . ";\n";
+        $bind_config_file .= '    type "' . $zone['zone_type'] . '";\n';
         $bind_config_file .= '    file "' . ZONE_DIR . '/db.' . $zone['domain'] . '";\n';
         if( $zone['zone_type'] == "backup" ) {
                 $bind_config_file .= '    masters { ' . $zone['master'] . '; };\n';
