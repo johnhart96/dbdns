@@ -11,6 +11,13 @@
 *
 */
 
+// Check PHP version
+$version = phpversion();
+$version = (double)$version;
+if( $version <= 8.2 ) {
+        die( "Error, you need to be running at least PHP 8.2. You are running " . phpversion() ); 
+}
+
 // Check and load config file
 if( file_exists( "config.php" ) ) {
         require_once 'config.php';
