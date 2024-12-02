@@ -10,6 +10,7 @@
 define( "SERVER_NAME" , "ns1" );
 define( "SERVER_TYPE" , "MASTER" );
 define( "ZONE_DIR" , "/etc/bind/zones" );
+define( "CONFIG_FILE" , "/etc/bind/dbdns.conf" );
 define( "ADMIN_EMAIL" , "YOUR EMAIL HERE" );
 
 // Database
